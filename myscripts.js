@@ -12,3 +12,16 @@ console.log(sum(x, y));
 // You can assign functions to variables
 var mySum = sum;
 console.log(mySum);
+
+//Button Function
+function btnClicked() {
+    console.log("My Button Clicked!");
+}
+
+//Real Example
+function update() {
+    console.log("Updating Result");
+    var input = document.getElementById("myinput");
+    var output = document.getElementById("output");
+    output.innerHTML = input.value;
+}
