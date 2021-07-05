@@ -1,3 +1,8 @@
-h1{
-    color: red;
+h1 {
+  color: red;
+}
+
+#todos li button {
+  float: right;
+  color: red;
 }

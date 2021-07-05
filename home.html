@@ -13,18 +13,30 @@
         console.log("My First JS");
     </script>
     <script src="./myscripts.js"></script>
+    <script src="./binding.js"></script>
 </head>
 
 <body>
-    <h1>My First HTML for Learning JS.</h1>
+    <!-- <h1>My First HTML for Learning JS.</h1>
     <button onclick="btnClicked()" onmouseover="console.log('Mouse Over')" onmouseout="console.log('Mouse Left')">
         Click Me</button>
     <br>
     <br>
-    <!-- Real Example -->
+    
     <input type="text" id="myinput" />
     <button onclick="update()">Update Result</button>
-    <span id="output">Result will show here</span>
+    <span id="output">Result will show here</span> -->
+
+    <h5>New Lecture Contents</h5>
+    <input id="newToDo" type="text" />
+    <button id="btnAdd">Add New Todo</button>
+
+    <h5>New Lecture Contents</h5>
+    <ul id="todos">
+        <li>Make Coffee <button onclick="handleDelete(event)">Delete</button></li>
+        <li>Buy Milk<button onclick="handleDelete(event)">Delete</button></li>
+        <li>Feed the cat<button onclick="handleDelete(event)">Delete</button></li>
+      </ul>
 </body>
 
 </html>
